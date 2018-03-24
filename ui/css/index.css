@@ -1,0 +1,55 @@
+/* datepicker */
+::-webkit-datetime-edit { }
+::-webkit-datetime-edit-fields-wrapper { background: silver; }
+::-webkit-datetime-edit-text { display: inline; }
+::-webkit-datetime-edit-month-field { display: none; }
+::-webkit-datetime-edit-day-field { display: none; }
+::-webkit-datetime-edit-year-field { display: none; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator {  }
+
+
+.rounded-indicator{
+    border-radius: 50%;
+    height: .5em!important;
+    width: .5em!important;
+}
+
+/* Carousel-bg */
+.carousel-control-prev, .carousel-control-next{
+    background: #00000069;
+}
+
+.carousel-control-prev :hover, .carousel-control-next :hover
+.carousel-control-prev :focus, .carousel-control-next :focus
+{
+    opacity: .5;
+}
+
+.mob-view{
+    display: none;
+}
+
+.map-div{
+    width: 100%!important;
+}
+
+@media only screen and (max-width: 768px){
+    .mob-view{
+        display: block;
+    }
+
+    .desk-view{
+        display: none;
+    }
+
+    .map{
+        min-height: 300px;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .map{
+        min-height: 500px;
+    }
+}
